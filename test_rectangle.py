@@ -31,8 +31,7 @@ def test_calculate(width, length, area):
     assert actual_area == area
 
 def test_main():
-    set_keyboard_input([4])
-    set_keyboard_input([5])
+    set_keyboard_input([4, 5])
     main()
     output = get_display_output()
 
