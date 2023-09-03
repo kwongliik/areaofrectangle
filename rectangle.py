@@ -9,9 +9,7 @@ def get_length_input():
     
 # function to calculate the area of circle
 def calculate(w, l):
-    W = get_width_input()
-    L = get_length_input()
-    area = W * L
+    area = w * l
     return area
 
 # main
