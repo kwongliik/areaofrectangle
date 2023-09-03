@@ -16,7 +16,7 @@ def calculate(w, l):
 def main():
     x = get_width_input()
     y = get_length_input()
-    area = calculate(x, y)
+    #area = calculate(x, y)
     print(f"Area: {area}")
 
 if __name__ == "__main__":
