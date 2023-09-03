@@ -13,7 +13,7 @@ def test_get_width_input():
     output = get_display_output()
 
     assert output == [
-        "key in width: ",
+        "key in width: 4",
     ]
 
 def test_get_length_input():
@@ -22,7 +22,7 @@ def test_get_length_input():
     output = get_display_output()
 
     assert output == [
-        "key in length: ",
+        "key in length: 5",
     ]
 
 @pytest.mark.parametrize("width,length,area", [(4, 5, 20), (6, 7, 42), (6, 8, 48)])
@@ -38,5 +38,5 @@ def test_main():
     assert output == [
         "key in width: ",
         "key in length: ",
-        "Area: 20"
+        "Area: 20.0"
     ]
