@@ -1,2 +1,2 @@
-# radius
-area of circle
+# Rectangle
+Calculate area of circle
