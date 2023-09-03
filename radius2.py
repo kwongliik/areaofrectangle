@@ -12,7 +12,7 @@ def calculate(r):
 # main
 def main():
     r = read_input()
-    area = calculate(r)
+    #area = calculate(r)
     print(f"Area: {area}")
 
 if __name__ == "__main__":
